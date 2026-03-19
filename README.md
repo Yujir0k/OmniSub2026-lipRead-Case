@@ -2,16 +2,27 @@
 
 Лицензионно-чистый baseline для visual-only lip reading.
 
-## Что внутри
+## Структура проекта
+
+- `scripts/` - основной код обучения, инференса и постобработки
+- `notebooks/` - запускные Jupyter-ноутбуки (включая all-in-one)
+- `runs/` - чекпоинты и метрики обучения
+- `artifacts/` - эталонные CSV-артефакты
+- `assets/` - шаблоны и служебные данные
+- `experiments/` - исследовательский ориентир по pretrained VSR + LM + MediaPipe
+- `submissions/` - рабочие сабмиты и сводки прогонов
+
+## Ключевые файлы
 
 - `runs/run_char_warmstart_overfit/best.pt` - лучший checkpoint
-- `quick_ctc_smoke.py` - from-scratch CTC тренировка/оценка
-- `infer_beam_submission.py` - beam decoding для submission
-- `apply_wordnorm_from_beam.py` - postprocess (word normalization)
-- `kaggle_infer_weights_only.py` - inference-only сценарий для Kaggle
-- `OmniSub2026_lipRead_Case_AllInOne.ipynb` - единый ноутбук запуска
+- `OmniSub2026_lipRead_Case_AllInOne.ipynb` - all-in-one в корне
+- `notebooks/00_all_in_one.ipynb` - all-in-one в папке ноутбуков
+- `scripts/quick_ctc_smoke.py` - from-scratch CTC тренировка/оценка
+- `scripts/infer_beam_submission.py` - beam decoding
+- `scripts/apply_wordnorm_from_beam.py` - wordnorm postprocess
+- `scripts/kaggle_infer_weights_only.py` - inference-only сценарий для Kaggle
 
-## Формат данных
+## Формат входных данных
 
 Ожидается `data-root` со структурой:
 
@@ -19,28 +30,29 @@
 - `test/`
 - `sample_submission.csv`
 
-Поддерживаются оба формата `path`:
+Поддерживаются два формата `path`:
 
 - `test/<video_id>/<clip_id>.mp4`
 - `<clip_id>.mp4` (файл находится в `test/`)
 
-## Быстрый старт (ноутбук)
+## Быстрый старт (рекомендуется)
 
-Откройте и запустите:
+Откройте:
 
+- `notebooks/00_all_in_one.ipynb`
 - `OmniSub2026_lipRead_Case_AllInOne.ipynb`
 
-В ноутбуке есть отдельные секции:
+В ноутбуке есть весь pipeline:
 
-1. from-scratch обучение (`TinyLipCTC`)
+1. обучение (опционально)
 2. beam inference
-3. word normalization
-4. проверка итогового CSV
+3. wordnorm
+4. проверка итогового submission
 
 ## CLI запуск (опционально)
 
 ```bash
-python infer_beam_submission.py \
+python scripts/infer_beam_submission.py \
   --ckpt runs/run_char_warmstart_overfit/best.pt \
   --data-root /path/to/data_root \
   --sample-submission /path/to/data_root/sample_submission.csv \
@@ -49,18 +61,18 @@ python infer_beam_submission.py \
 ```
 
 ```bash
-python apply_wordnorm_from_beam.py \
+python scripts/apply_wordnorm_from_beam.py \
   --input-csv submission_beam.csv \
   --output-csv submission_beam_wordnorm.csv
 ```
 
-## Требования к итоговому CSV
+## Требования к submission CSV
 
 - ровно 2 колонки: `path,transcription`
-- порядок строк строго как в `sample_submission.csv`
-- `transcription`: lowercase, нормализованные пробелы
+- порядок строк совпадает с `sample_submission.csv`
+- `transcription` в lowercase с нормализованными пробелами
 
-## Примечание по исследовательским материалам
+## Примечание по исследовательскому блоку
 
-Папка `Pretrained VSR + LM + MediaPipe (ориентир верхней планки)` добавлена как ориентир анализа сильных предобученных подходов.  
-Финальный submission в этом проекте строится from-scratch pipeline из текущего репозитория.
+`experiments/pretrained_vsr_lm_mediapipe/` добавлен как ориентир качества предобученных VSR-подходов.  
+Финальный submission в этом репозитории формируется from-scratch pipeline из `scripts/` и `runs/`.

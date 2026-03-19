@@ -52,8 +52,8 @@
 
 Ключевые результаты:
 
-- [metrics_final.json](C:/Users/bio24/OneDrive/Desktop/OmniSubb/Visual_Speech_Recognition_for_Multiple_Languages/artifacts/final_eval/metrics_final.json)
-- [README_OMNISUB_FULL_REPORT.md](C:/Users/bio24/OneDrive/Desktop/OmniSubb/Visual_Speech_Recognition_for_Multiple_Languages/README_OMNISUB_FULL_REPORT.md)
+- [metrics_final.json](experiments/pretrained_vsr_lm_mediapipe/metrics_final.json)
+- [README_OMNISUB_FULL_REPORT.md](experiments/pretrained_vsr_lm_mediapipe/README_OMNISUB_FULL_REPORT.md)
 
 Вывод: качественный ориентир, но не финальный контур из-за лицензионных рисков внешнего pretraining.
 
@@ -107,13 +107,13 @@
 
 **Артефакты финального контура**
 
-- [README.md](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/README.md)
-- [quick_ctc_smoke.py](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/quick_ctc_smoke.py)
-- [infer_beam_submission.py](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/infer_beam_submission.py)
-- [apply_wordnorm_from_beam.py](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/apply_wordnorm_from_beam.py)
-- [runs/run_char_warmstart_overfit/config.json](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/runs/run_char_warmstart_overfit/config.json)
-- [runs/run_char_warmstart_overfit/metrics.csv](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/runs/run_char_warmstart_overfit/metrics.csv)
-- [submissions/baseline_20260319_125846/run_info.txt](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/submissions/baseline_20260319_125846/run_info.txt)
+- [README.md](README.md)
+- [scripts/quick_ctc_smoke.py](scripts/quick_ctc_smoke.py)
+- [scripts/infer_beam_submission.py](scripts/infer_beam_submission.py)
+- [scripts/apply_wordnorm_from_beam.py](scripts/apply_wordnorm_from_beam.py)
+- [runs/run_char_warmstart_overfit/config.json](runs/run_char_warmstart_overfit/config.json)
+- [runs/run_char_warmstart_overfit/metrics.csv](runs/run_char_warmstart_overfit/metrics.csv)
+- [submissions/baseline_20260319_125846/run_info.txt](submissions/baseline_20260319_125846/run_info.txt)
 
 ## 5. Сводка метрик по подходам (модель/стек)
 
@@ -127,7 +127,7 @@
 
 Агрегированный набор метрик:
 
-- [cross_project_metrics_clean.json](C:/Users/bio24/OneDrive/Desktop/OmniFinalSub/submissions/cross_project_metrics_clean.json)
+- [cross_project_metrics_clean.json](docs/metrics/cross_project_metrics_clean.json)
 
 ## 6. Почему итоговое качество ограничено в рамках этого соревнования 
 
