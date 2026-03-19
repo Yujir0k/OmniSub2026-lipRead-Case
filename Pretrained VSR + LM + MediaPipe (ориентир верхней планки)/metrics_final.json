@@ -1,0 +1,12 @@
+{
+  "baseline_original_decode_wer": 0.22141119221411193,
+  "baseline_tuned_decode_wer": 0.1897810218978102,
+  "finetuned_tuned_decode_wer": 0.1873479318734793,
+  "best_params": {
+    "ctc_weight": 0.1,
+    "lm_weight": 0.2,
+    "beam_size": 20
+  },
+  "val_eval_size": 30,
+  "seed": 42
+}

@@ -1,0 +1,756 @@
+{
+  "metric_rows": [
+    {
+      "project": "OmniFinal",
+      "rel": "converted_submissions\\conversion_report.csv",
+      "type": "csv",
+      "rows": 2,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniFinal",
+      "rel": "outputs_lipnet\\epoch_metrics.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniFinal",
+      "rel": "outputs_lipnet_50e\\epoch_metrics.csv",
+      "type": "csv",
+      "rows": null,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniFinal",
+      "rel": "outputs_lipnet_style_60e\\epoch_metrics.csv",
+      "type": "csv",
+      "rows": 90,
+      "best_wer": 0.98546,
+      "best_wer_col": "val_wer",
+      "best_loss": 1.710621,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniFinal",
+      "rel": "outputs_lipnet_style_60e\\backup_latest\\epoch_metrics.csv",
+      "type": "csv",
+      "rows": 90,
+      "best_wer": 0.98546,
+      "best_wer_col": "val_wer",
+      "best_loss": 1.710621,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSub",
+      "rel": "external\\av_hubert\\fairseq\\.github\\ISSUE_TEMPLATE\\bug_report.md",
+      "type": "md",
+      "rows": null,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_fix_smoke\\wer_summary.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 746.6900420757,
+      "best_wer_col": "wer_percent",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_loop_test\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_loop_test2\\wer_summary.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 76923076923.0,
+      "best_wer_col": "wer_percent",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_train_live\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_train_live2\\wer_summary.csv",
+      "type": "csv",
+      "rows": 8,
+      "best_wer": 99.2712550607,
+      "best_wer_col": "wer_percent",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_verify_fmt\\wer_summary.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 710.8340080972,
+      "best_wer_col": "wer_percent",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_verify_now\\wer_summary.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 46963562753.0,
+      "best_wer_col": "wer_percent",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke10\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke11\\wer_summary.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 667.7419354839,
+      "best_wer_col": "wer_percent",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke2\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke3\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke4\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke5\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke6\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke7\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke8\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub",
+      "rel": "outputs\\avhubert_vsr433_smoke9\\wer_summary.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\phase1_sanity_20260318_013258\\a_mouth96_b8_lr1e3_history.csv",
+      "type": "csv",
+      "rows": 12,
+      "best_wer": 0.227788,
+      "best_wer_col": "eval_wer",
+      "best_loss": 0.287386,
+      "best_loss_col": "eval_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\phase1_sanity_20260318_013258\\phase1_report.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.22778765182257832,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_2dgru_full_a\\metrics.csv",
+      "type": "csv",
+      "rows": 14,
+      "best_wer": 0.980526,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.056732,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_bpe_full_a\\metrics.csv",
+      "type": "csv",
+      "rows": 12,
+      "best_wer": 0.982578,
+      "best_wer_col": "val_wer",
+      "best_loss": 5.487924,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_bpe_full_b\\metrics.csv",
+      "type": "csv",
+      "rows": 10,
+      "best_wer": 0.980982,
+      "best_wer_col": "val_wer",
+      "best_loss": 4.435795,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_char_blank0_nf160_long_a\\metrics.csv",
+      "type": "csv",
+      "rows": 21,
+      "best_wer": 0.976269,
+      "best_wer_col": "best_val_wer",
+      "best_loss": 2.712425,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_char_easylen_full\\metrics.csv",
+      "type": "csv",
+      "rows": 12,
+      "best_wer": 0.978681,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.754759,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_char_face_mouth_smoke\\metrics.csv",
+      "type": "csv",
+      "rows": 6,
+      "best_wer": 0.984225,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.061514,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_char_mp_mouth_smoke\\metrics.csv",
+      "type": "csv",
+      "rows": 6,
+      "best_wer": 0.979455,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.06723,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_char_stable_a\\metrics.csv",
+      "type": "csv",
+      "rows": 10,
+      "best_wer": 0.979455,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.028514,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_char_warmstart_mp_mouth\\metrics.csv",
+      "type": "csv",
+      "rows": 10,
+      "best_wer": 0.981115,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.907207,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_char_warmstart_overfit\\metrics.csv",
+      "type": "csv",
+      "rows": 16,
+      "best_wer": 0.976269,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.800096,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_ssl_ctc_long_a\\metrics_ctc.csv",
+      "type": "csv",
+      "rows": 28,
+      "best_wer": 0.978722,
+      "best_wer_col": "val_wer_greedy",
+      "best_loss": 2.832465,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\run_ssl_ctc_long_a\\metrics_ssl.csv",
+      "type": "csv",
+      "rows": 12,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": 0.045075,
+      "best_loss_col": "ssl_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\smoke_bpe_test\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 6.338661,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\smoke_bpe_tout\\metrics.csv",
+      "type": "csv",
+      "rows": 2,
+      "best_wer": 0.974211,
+      "best_wer_col": "val_wer",
+      "best_loss": 4.734393,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\smoke_ssl_ctc_curr\\metrics_ctc.csv",
+      "type": "csv",
+      "rows": 2,
+      "best_wer": 0.999955,
+      "best_wer_col": "val_wer_greedy",
+      "best_loss": 3.398649,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSub2",
+      "rel": "runs\\smoke_ssl_ctc_curr\\metrics_ssl.csv",
+      "type": "csv",
+      "rows": 2,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": 1.508312,
+      "best_loss_col": "ssl_loss"
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\README_OMNISUB_FULL_REPORT.md",
+      "type": "md",
+      "rows": null,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\decode_tune\\results.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.1922141119221411,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\decode_tune_beam\\results.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.1897810218978102,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\final_eval\\metrics_final.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.1873479318734793,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\omnisub_run1\\metrics.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.22141119221411193,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\omnisub_run2\\metrics.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.22141119221411193,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\omnisub_run3_tuned\\EXPERIMENT_REPORT.md",
+      "type": "md",
+      "rows": null,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\omnisub_run3_tuned\\metrics.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.1897810218978102,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\omnisub_smoke\\metrics.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 1.0,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubb",
+      "rel": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\omnisub_smoke2\\metrics.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.2358490566037736,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "SMOKE_TEST_RESULTS_2026-03-17.md",
+      "type": "md",
+      "rows": null,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\hybrid_run1full_run2full\\hybrid_metrics.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 0.981637868471457,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\hybrid_sanity\\hybrid_metrics.json",
+      "type": "json",
+      "rows": null,
+      "best_wer": 1.0,
+      "best_wer_col": "json_scan",
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_gpu_load\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.575428,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_heavy_1\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.945025,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_heavy_2\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 4.346676,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_heavy_3\\metrics.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_peak_vram\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.845329,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_peak_vram2\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 4.119211,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_peak_vram3\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 4.286169,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\probe_target8gb\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.715004,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\run1_ctc\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 0.979153,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.131894,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\run1_ctc_hl\\metrics.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\run1_full_8gb\\metrics.csv",
+      "type": "csv",
+      "rows": 0,
+      "best_wer": null,
+      "best_wer_col": null,
+      "best_loss": null,
+      "best_loss_col": null
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\run1_full_m120\\metrics.csv",
+      "type": "csv",
+      "rows": 8,
+      "best_wer": 0.982117,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.945109,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\run2_full_m120\\metrics.csv",
+      "type": "csv",
+      "rows": 8,
+      "best_wer": 0.981638,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.962357,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\run3_battle_full120_a\\metrics.csv",
+      "type": "csv",
+      "rows": 10,
+      "best_wer": 0.981999,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.81306,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\run4_battle_full120_b\\metrics.csv",
+      "type": "csv",
+      "rows": 2,
+      "best_wer": 0.991072,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.992847,
+      "best_loss_col": "train_loss"
+    },
+    {
+      "project": "OmniSubhan1",
+      "rel": "runs\\sanity_checkpoint\\metrics.csv",
+      "type": "csv",
+      "rows": 1,
+      "best_wer": 1.0,
+      "best_wer_col": "val_wer",
+      "best_loss": 3.523678,
+      "best_loss_col": "val_loss"
+    },
+    {
+      "project": "OmniFinalSub",
+      "rel": "runs\\run_char_warmstart_overfit\\metrics.csv",
+      "type": "csv",
+      "rows": 16,
+      "best_wer": 0.976269,
+      "best_wer_col": "val_wer",
+      "best_loss": 2.800096,
+      "best_loss_col": "train_loss"
+    }
+  ],
+  "project_best": {
+    "OmniFinal": {
+      "best_wer": 0.98546,
+      "source": "outputs_lipnet_style_60e\\epoch_metrics.csv",
+      "col": "val_wer"
+    },
+    "OmniSub": {
+      "best_wer": 99.2712550607,
+      "source": "outputs\\avhubert_train_live2\\wer_summary.csv",
+      "col": "wer_percent"
+    },
+    "OmniSub2": {
+      "best_wer": 0.22778765182257832,
+      "source": "runs\\phase1_sanity_20260318_013258\\phase1_report.json",
+      "col": "json_scan"
+    },
+    "OmniSubb": {
+      "best_wer": 0.1873479318734793,
+      "source": "Visual_Speech_Recognition_for_Multiple_Languages\\artifacts\\final_eval\\metrics_final.json",
+      "col": "json_scan"
+    },
+    "OmniSubhan1": {
+      "best_wer": 0.979153,
+      "source": "runs\\run1_ctc\\metrics.csv",
+      "col": "val_wer"
+    },
+    "OmniFinalSub": {
+      "best_wer": 0.976269,
+      "source": "runs\\run_char_warmstart_overfit\\metrics.csv",
+      "col": "val_wer"
+    }
+  }
+}

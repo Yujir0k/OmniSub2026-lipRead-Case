@@ -1,0 +1,445 @@
+{
+  "best": {
+    "OmniFinal": {
+      "project": "OmniFinal",
+      "file": "outputs_lipnet_style_60e/epoch_metrics.csv",
+      "source": "csv",
+      "key": "val_wer",
+      "value": 0.98546,
+      "n": 90
+    },
+    "OmniOmni": null,
+    "OmniSub": {
+      "project": "OmniSub",
+      "file": "outputs/avhubert_train_live2/wer_summary.csv",
+      "source": "csv",
+      "key": "wer_percent",
+      "value": 99.2712550607,
+      "n": 8
+    },
+    "OmniSub2": {
+      "project": "OmniSub2",
+      "file": "runs/phase1_sanity_20260318_013258/phase1_report.json",
+      "source": "json",
+      "key": "best_wer",
+      "value": 0.22778765182257832,
+      "n": 1
+    },
+    "OmniSubb": {
+      "project": "OmniSubb",
+      "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/final_eval/metrics_final.json",
+      "source": "json",
+      "key": "finetuned_tuned_decode_wer",
+      "value": 0.1873479318734793,
+      "n": 1
+    },
+    "OmniSubhan": null,
+    "OmniSubhan1": {
+      "project": "OmniSubhan1",
+      "file": "runs/run1_ctc/metrics.csv",
+      "source": "csv",
+      "key": "val_wer",
+      "value": 0.979153,
+      "n": 1
+    },
+    "OmniFinalSub": {
+      "project": "OmniFinalSub",
+      "file": "runs/run_char_warmstart_overfit/metrics.csv",
+      "source": "csv",
+      "key": "val_wer",
+      "value": 0.976269,
+      "n": 16
+    }
+  },
+  "top": {
+    "OmniFinal": [
+      {
+        "project": "OmniFinal",
+        "file": "outputs_lipnet_style_60e/epoch_metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.98546,
+        "n": 90
+      },
+      {
+        "project": "OmniFinal",
+        "file": "outputs_lipnet_style_60e/backup_latest/epoch_metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.98546,
+        "n": 90
+      },
+      {
+        "project": "OmniFinal",
+        "file": "outputs_lipnet_50e/epoch_metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.997907,
+        "n": 2
+      }
+    ],
+    "OmniSub": [
+      {
+        "project": "OmniSub",
+        "file": "outputs/avhubert_train_live2/wer_summary.csv",
+        "source": "csv",
+        "key": "wer_percent",
+        "value": 99.2712550607,
+        "n": 8
+      },
+      {
+        "project": "OmniSub",
+        "file": "outputs/avhubert_vsr433_smoke11/wer_summary.csv",
+        "source": "csv",
+        "key": "wer_percent",
+        "value": 667.7419354839,
+        "n": 1
+      },
+      {
+        "project": "OmniSub",
+        "file": "outputs/avhubert_verify_fmt/wer_summary.csv",
+        "source": "csv",
+        "key": "wer_percent",
+        "value": 710.8340080972,
+        "n": 1
+      },
+      {
+        "project": "OmniSub",
+        "file": "outputs/avhubert_verify_now/wer_summary.csv",
+        "source": "csv",
+        "key": "wer_percent",
+        "value": 712.0,
+        "n": 1
+      },
+      {
+        "project": "OmniSub",
+        "file": "outputs/avhubert_loop_test2/wer_summary.csv",
+        "source": "csv",
+        "key": "wer_percent",
+        "value": 723.0,
+        "n": 1
+      },
+      {
+        "project": "OmniSub",
+        "file": "outputs/avhubert_fix_smoke/wer_summary.csv",
+        "source": "csv",
+        "key": "wer_percent",
+        "value": 746.6900420757,
+        "n": 1
+      }
+    ],
+    "OmniSub2": [
+      {
+        "project": "OmniSub2",
+        "file": "runs/phase1_sanity_20260318_013258/phase1_report.json",
+        "source": "json",
+        "key": "best_wer",
+        "value": 0.22778765182257832,
+        "n": 1
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/phase1_sanity_20260318_013258/phase1_report.json",
+        "source": "json",
+        "key": "best_wer",
+        "value": 0.22778765182257832,
+        "n": 1
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/phase1_sanity_20260318_013258/a_mouth96_b8_lr1e3_history.csv",
+        "source": "csv",
+        "key": "eval_wer",
+        "value": 0.227788,
+        "n": 12
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/phase1_sanity_20260318_013258/a_mouth96_b8_lr1e3_history.csv",
+        "source": "csv",
+        "key": "best_wer",
+        "value": 0.227788,
+        "n": 12
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/smoke_bpe_tout/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.974211,
+        "n": 2
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/smoke_bpe_tout/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.974211,
+        "n": 2
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/run_char_blank0_nf160_long_a/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.976269,
+        "n": 21
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/run_char_warmstart_overfit/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.976269,
+        "n": 16
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/run_char_warmstart_overfit/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.976269,
+        "n": 16
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/run_char_easylen_full/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.978681,
+        "n": 12
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/run_char_easylen_full/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.978681,
+        "n": 12
+      },
+      {
+        "project": "OmniSub2",
+        "file": "runs/run_ssl_ctc_long_a/metrics_ctc.csv",
+        "source": "csv",
+        "key": "val_wer_greedy",
+        "value": 0.978722,
+        "n": 28
+      }
+    ],
+    "OmniSubb": [
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/final_eval/metrics_final.json",
+        "source": "json",
+        "key": "finetuned_tuned_decode_wer",
+        "value": 0.1873479318734793,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/final_eval/metrics_final.json",
+        "source": "json",
+        "key": "baseline_tuned_decode_wer",
+        "value": 0.1897810218978102,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/omnisub_run3_tuned/metrics.json",
+        "source": "json",
+        "key": "finetuned_val_wer",
+        "value": 0.1897810218978102,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/omnisub_run3_tuned/metrics.json",
+        "source": "json",
+        "key": "best_val_wer",
+        "value": 0.1897810218978102,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/decode_tune_beam/results.json",
+        "source": "json",
+        "key": "wer",
+        "value": 0.1897810218978102,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/omnisub_run3_tuned/metrics.json",
+        "source": "json",
+        "key": "baseline_val_wer",
+        "value": 0.1922141119221411,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/decode_tune/results.json",
+        "source": "json",
+        "key": "wer",
+        "value": 0.1922141119221411,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/decode_tune_beam/results.json",
+        "source": "json",
+        "key": "wer",
+        "value": 0.1922141119221411,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/decode_tune_beam/results.json",
+        "source": "json",
+        "key": "wer",
+        "value": 0.1922141119221411,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/decode_tune/results.json",
+        "source": "json",
+        "key": "wer",
+        "value": 0.20681265206812652,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/decode_tune/results.json",
+        "source": "json",
+        "key": "wer",
+        "value": 0.2141119221411192,
+        "n": 1
+      },
+      {
+        "project": "OmniSubb",
+        "file": "Visual_Speech_Recognition_for_Multiple_Languages/artifacts/decode_tune_beam/results.json",
+        "source": "json",
+        "key": "wer",
+        "value": 0.2141119221411192,
+        "n": 1
+      }
+    ],
+    "OmniSubhan1": [
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run1_ctc/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.979153,
+        "n": 1
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run1_ctc/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.979153,
+        "n": 1
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/hybrid_run1full_run2full/hybrid_metrics.json",
+        "source": "json",
+        "key": "run2_wer",
+        "value": 0.981637868471457,
+        "n": 1
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/hybrid_run1full_run2full/hybrid_metrics.json",
+        "source": "json",
+        "key": "hybrid_wer",
+        "value": 0.981637868471457,
+        "n": 1
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run2_full_m120/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.981638,
+        "n": 8
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run2_full_m120/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.981638,
+        "n": 8
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run3_battle_full120_a/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.981999,
+        "n": 10
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run3_battle_full120_a/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.981999,
+        "n": 10
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run1_full_m120/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.982117,
+        "n": 8
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run1_full_m120/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.982117,
+        "n": 8
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/hybrid_run1full_run2full/hybrid_metrics.json",
+        "source": "json",
+        "key": "run1_wer",
+        "value": 0.9821174199569224,
+        "n": 1
+      },
+      {
+        "project": "OmniSubhan1",
+        "file": "runs/run4_battle_full120_b/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.991072,
+        "n": 2
+      }
+    ],
+    "OmniFinalSub": [
+      {
+        "project": "OmniFinalSub",
+        "file": "runs/run_char_warmstart_overfit/metrics.csv",
+        "source": "csv",
+        "key": "val_wer",
+        "value": 0.976269,
+        "n": 16
+      },
+      {
+        "project": "OmniFinalSub",
+        "file": "runs/run_char_warmstart_overfit/metrics.csv",
+        "source": "csv",
+        "key": "best_val_wer",
+        "value": 0.976269,
+        "n": 16
+      }
+    ]
+  },
+  "records_total": 105
+}

@@ -1,0 +1,22 @@
+﻿Run date: 2026-03-19
+Workspace: C:\Users\bio24\OneDrive\Desktop\OmniFinalSub
+Python: C:\Users\bio24\OneDrive\Desktop\OmniSubhan1\.venv310\Scripts\python.exe
+Checkpoint: C:\Users\bio24\OneDrive\Desktop\OmniFinalSub\runs\run_char_warmstart_overfit\best.pt
+Data root: C:\Users\bio24\OneDrive\Desktop\OmniSub2
+Sample submission: C:\Users\bio24\OneDrive\Desktop\OmniSub2\sample_submission.csv
+
+Inference script: infer_beam_submission.py
+Args: --beam-size 30 --batch-size 6 --num-workers 0
+Output: submission_final_beam.csv
+Elapsed (sec): 686.14
+
+Postprocess script: apply_wordnorm_from_beam.py
+Input: submission_final_beam.csv
+Output: submission_final_beam_wordnorm.csv
+Elapsed (sec): 1.67
+
+Validation:
+- columns: path,transcription
+- rows: 3000
+- path order equals sample_submission: true
+- empty transcription rows: 0
